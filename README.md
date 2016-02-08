@@ -1,7 +1,10 @@
 # random-generator
 
 ```javascript
-var randomValue = random();
+var randomGenerator = require('random-generator');
+
+var randomValue = randomGenerator();
+
 var min = 10, max = 100;
-var rangedRandomValue = random.range(min, max);
+var rangedRandomValue = randomGenerator.range(min, max);
 ```
