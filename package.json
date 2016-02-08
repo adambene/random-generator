@@ -1,0 +1,29 @@
+{
+  "name": "random-generator",
+  "version": "1.0.0",
+  "description": "Randomizing utilities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "keywords": [
+    "random generator",
+    "random",
+    "generator",
+    "generate",
+    "randomize",
+    "string",
+    "date",
+    "url",
+    "integer",
+    "number"
+  ],
+  "author": {
+    "name": "Adam Bene",
+    "url": "https://github.com/adambene"
+  },
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "mocha": "~2.4.5"
+  }
+}
